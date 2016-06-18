@@ -404,3 +404,6 @@
 2016-06-18 11:03:55: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
 2016-06-18 11:03:55: WARNING: script is already working
 2016-06-18 11:03:55: WARNING: exit script
+2016-06-18 11:12:10:==========  FINISHED Script Template  ==========
+2016-06-18 11:12:10: DEBUG: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working exists
+2016-06-18 11:12:10: DEBUG: removing file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
