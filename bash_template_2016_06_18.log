@@ -2,3 +2,405 @@
 
 
 2016-06-18 10:22:50: FATAL: filehandle on working file can not be opend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2016-06-18 10:35:33: WARN: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working is older than 180
+2016-06-18 10:35:34: WARN: deleting old working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+2016-06-18 10:35:34: FATAL: filehandle on working file can not be opend
+
+
+
+2016-06-18 10:36:09: WARN: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working is older than 180
+2016-06-18 10:36:09: WARN: deleting old working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+2016-06-18 10:36:09: FATAL: filehandle on working file can not be opend
+
+
+
+2016-06-18 10:36:25: WARN: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working is older than 180
+2016-06-18 10:36:25: WARN: deleting old working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+2016-06-18 10:36:25: FATAL: filehandle on working file can not be opend
+
+
+
+2016-06-18 10:37:02: WARN: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working is older than 180
+2016-06-18 10:37:02: WARN: deleting old working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+2016-06-18 10:37:02: DEBUG: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working exists
+2016-06-18 10:37:02: DEBUG: removing file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+
+
+
+2016-06-18 10:37:27: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not found all ok
+2016-06-18 10:37:27: DEBUG: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working exists
+2016-06-18 10:37:27: DEBUG: removing file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+
+
+
+2016-06-18 10:37:35: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not found all ok
+2016-06-18 10:37:35: DEBUG: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working exists
+2016-06-18 10:37:35: DEBUG: removing file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+
+
+
+2016-06-18 10:37:53: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not found all ok
+2016-06-18 10:37:53:==========  START Script Template  ==========
+2016-06-18 10:37:53: Start processing backup.
+2016-06-18 10:37:53: ERROR: TEXT
+2016-06-18 10:37:53: NOTE: TEXT
+2016-06-18 10:37:53: SUCESS: TEXT
+2016-06-18 10:37:53: WARNING: TEXT
+2016-06-18 10:37:53:==========  FINISHED Script Template  ==========
+2016-06-18 10:37:53: DEBUG: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working exists
+2016-06-18 10:37:53: DEBUG: removing file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+
+
+
+2016-06-18 10:38:20: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not found all ok
+2016-06-18 10:38:21:==========  START Script Template  ==========
+2016-06-18 10:38:21: Start processing backup.
+2016-06-18 10:38:21: ERROR: TEXT
+2016-06-18 10:38:21: NOTE: TEXT
+2016-06-18 10:38:21: SUCESS: TEXT
+2016-06-18 10:38:21: WARNING: TEXT
+
+
+
+2016-06-18 10:38:54: WARN: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working is older than 180
+2016-06-18 10:38:54: WARN: deleting old working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+2016-06-18 10:38:54:==========  START Script Template  ==========
+2016-06-18 10:38:54: Start processing backup.
+2016-06-18 10:38:54: ERROR: TEXT
+2016-06-18 10:38:54: NOTE: TEXT
+2016-06-18 10:38:54: SUCESS: TEXT
+2016-06-18 10:38:54: WARNING: TEXT
+2016-06-18 10:39:03: DEBUG: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working exists
+2016-06-18 10:39:03: DEBUG: removing file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+2016-06-18 10:39:05: ERROR: 2016-06-18 10:39:05: ERROR: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not exists
+
+
+
+2016-06-18 10:41:17: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not found all ok
+2016-06-18 10:41:17:==========  START Script Template  ==========
+2016-06-18 10:41:17: Start processing backup.
+2016-06-18 10:41:17: ERROR: TEXT
+2016-06-18 10:41:17: NOTE: TEXT
+2016-06-18 10:41:17: SUCESS: TEXT
+2016-06-18 10:41:17: WARNING: TEXT
+
+
+
+2016-06-18 10:41:20: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 10:41:20: WARN: script is already working
+2016-06-18 10:41:20: WARN: exit script
+
+
+
+2016-06-18 10:41:23: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 10:41:23: WARN: script is already working
+2016-06-18 10:41:23: WARN: exit script
+
+
+
+2016-06-18 10:41:24: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 10:41:24: WARN: script is already working
+2016-06-18 10:41:24: WARN: exit script
+
+
+
+2016-06-18 10:41:24: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 10:41:24: WARN: script is already working
+2016-06-18 10:41:24: WARN: exit script
+
+
+
+2016-06-18 10:41:24: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 10:41:24: WARN: script is already working
+2016-06-18 10:41:24: WARN: exit script
+
+
+
+2016-06-18 10:41:25: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 10:41:25: WARN: script is already working
+2016-06-18 10:41:25: WARN: exit script
+
+
+
+2016-06-18 10:41:25: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 10:41:25: WARN: script is already working
+2016-06-18 10:41:25: WARN: exit script
+
+
+
+2016-06-18 10:41:37: WARN: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working is older than 5
+2016-06-18 10:41:37: WARN: deleting old working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+2016-06-18 10:41:37:==========  START Script Template  ==========
+2016-06-18 10:41:37: Start processing backup.
+2016-06-18 10:41:37: ERROR: TEXT
+2016-06-18 10:41:37: NOTE: TEXT
+2016-06-18 10:41:38: SUCESS: TEXT
+2016-06-18 10:41:38: WARNING: TEXT
+2016-06-18 10:41:41: DEBUG: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working exists
+2016-06-18 10:41:41: DEBUG: removing file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+
+
+
+2016-06-18 10:41:42: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not found all ok
+2016-06-18 10:41:42:==========  START Script Template  ==========
+2016-06-18 10:41:42: Start processing backup.
+2016-06-18 10:41:42: ERROR: TEXT
+2016-06-18 10:41:42: NOTE: TEXT
+2016-06-18 10:41:42: SUCESS: TEXT
+2016-06-18 10:41:42: WARNING: TEXT
+2016-06-18 10:41:46: DEBUG: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working exists
+2016-06-18 10:41:46: DEBUG: removing file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+2016-06-18 10:41:47: ERROR: 2016-06-18 10:41:47: ERROR: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not exists
+
+
+
+2016-06-18 10:41:49: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not found all ok
+2016-06-18 10:41:49:==========  START Script Template  ==========
+2016-06-18 10:41:49: Start processing backup.
+2016-06-18 10:41:49: ERROR: TEXT
+2016-06-18 10:41:49: NOTE: TEXT
+2016-06-18 10:41:49: SUCESS: TEXT
+2016-06-18 10:41:49: WARNING: TEXT
+
+
+
+2016-06-18 10:41:51: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 10:41:51: WARN: script is already working
+2016-06-18 10:41:51: WARN: exit script
+
+
+
+2016-06-18 10:41:52: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 10:41:52: WARN: script is already working
+2016-06-18 10:41:52: WARN: exit script
+
+
+
+2016-06-18 10:41:52: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 10:41:52: WARN: script is already working
+2016-06-18 10:41:52: WARN: exit script
+
+
+
+2016-06-18 10:41:53: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 10:41:53: WARN: script is already working
+2016-06-18 10:41:53: WARN: exit script
+
+
+
+2016-06-18 10:41:54: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 10:41:54: WARN: script is already working
+2016-06-18 10:41:54: WARN: exit script
+
+
+
+2016-06-18 10:41:55: WARN: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working is older than 5
+2016-06-18 10:41:55: WARN: deleting old working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+2016-06-18 10:41:55:==========  START Script Template  ==========
+2016-06-18 10:41:55: Start processing backup.
+2016-06-18 10:41:55: ERROR: TEXT
+2016-06-18 10:41:55: NOTE: TEXT
+2016-06-18 10:41:55: SUCESS: TEXT
+2016-06-18 10:41:55: WARNING: TEXT
+2016-06-18 10:42:05: DEBUG: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working exists
+2016-06-18 10:42:05: DEBUG: removing file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+2016-06-18 10:42:06: ERROR: 2016-06-18 10:42:06: ERROR: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not exists
+
+
+
+2016-06-18 10:43:13: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not found all ok
+2016-06-18 10:43:13:==========  START Script Template  ==========
+2016-06-18 10:43:13: Start processing backup.
+2016-06-18 10:43:13: ERROR: TEXT
+2016-06-18 10:43:13: NOTE: TEXT
+2016-06-18 10:43:13: SUCESS: TEXT
+2016-06-18 10:43:13: WARNING: TEXT
+2016-06-18 10:43:15: DEBUG: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working exists
+2016-06-18 10:43:15: DEBUG: removing file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+
+
+
+2016-06-18 10:47:54: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not found all ok
+2016-06-18 10:47:54:==========  START Script Template  ==========
+2016-06-18 10:47:54: System is running on OSX
+2016-06-18 10:47:54: Start processing backup.
+2016-06-18 10:47:54: ERROR: TEXT
+2016-06-18 10:47:54: NOTE: TEXT
+2016-06-18 10:47:54: SUCESS: TEXT
+2016-06-18 10:47:54: WARNING: TEXT
+2016-06-18 10:54:35: DEBUG: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working exists
+2016-06-18 10:54:35: DEBUG: removing file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+
+
+
+2016-06-18 10:58:50: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not found all ok
+2016-06-18 10:58:50:==========  START Script Template  ==========
+2016-06-18 10:58:50: System is running on OSX
+2016-06-18 10:58:50: Start processing backup.
+2016-06-18 10:58:50: ERROR: TEXT
+2016-06-18 10:58:50: NOTE: TEXT
+2016-06-18 10:58:50: SUCESS: TEXT
+2016-06-18 10:58:50: WARNING: TEXT
+2016-06-18 11:00:42: ERROR: 2016-06-18 11:00:42: ERROR: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not exists
+
+
+
+2016-06-18 11:00:43: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not found all ok
+2016-06-18 11:00:43:==========  START Script Template  ==========
+2016-06-18 11:00:43: System is running on OSX
+2016-06-18 11:00:43: Start processing backup.
+2016-06-18 11:00:43: ERROR: TEXT
+2016-06-18 11:00:43: NOTE: TEXT
+2016-06-18 11:00:43: SUCESS: TEXT
+2016-06-18 11:00:43: WARNING: TEXT
+
+
+
+2016-06-18 11:01:04: WARN: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working is older than 5
+2016-06-18 11:01:04: WARN: deleting old working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+2016-06-18 11:01:04:==========  START Script Template  ==========
+2016-06-18 11:01:04: System is running on OSX
+2016-06-18 11:01:04: Start processing backup.
+2016-06-18 11:01:04: ERROR: TEXT
+2016-06-18 11:01:04: NOTE: TEXT
+2016-06-18 11:01:04: SUCESS: TEXT
+2016-06-18 11:01:04: WARNING: TEXT
+2016-06-18 11:01:09: DEBUG: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working exists
+2016-06-18 11:01:09: DEBUG: removing file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+2016-06-18 11:01:11: ERROR: 2016-06-18 11:01:11: ERROR: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not exists
+
+
+
+2016-06-18 11:01:19: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not found all ok
+2016-06-18 11:01:19:==========  START Script Template  ==========
+2016-06-18 11:01:19: System is running on OSX
+2016-06-18 11:01:19: Start processing backup.
+2016-06-18 11:01:19: ERROR: TEXT
+2016-06-18 11:01:19: NOTE: TEXT
+2016-06-18 11:01:19: SUCESS: TEXT
+2016-06-18 11:01:19: WARNING: TEXT
+
+
+
+2016-06-18 11:01:21: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 11:01:21: WARN: script is already working
+2016-06-18 11:01:21: WARN: exit script
+
+
+
+2016-06-18 11:01:22: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 11:01:22: WARN: script is already working
+2016-06-18 11:01:22: WARN: exit script
+
+
+
+2016-06-18 11:01:23: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 11:01:23: WARN: script is already working
+2016-06-18 11:01:23: WARN: exit script
+
+
+
+2016-06-18 11:01:23: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 11:01:23: WARN: script is already working
+2016-06-18 11:01:23: WARN: exit script
+
+
+
+2016-06-18 11:01:27: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 11:01:27: WARN: script is already working
+2016-06-18 11:01:27: WARN: exit script
+
+
+
+2016-06-18 11:01:27: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 11:01:27: WARN: script is already working
+2016-06-18 11:01:27: WARN: exit script
+
+
+
+2016-06-18 11:01:28: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 11:01:28: WARN: script is already working
+2016-06-18 11:01:28: WARN: exit script
+
+
+
+2016-06-18 11:01:28: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 11:01:28: WARN: script is already working
+2016-06-18 11:01:28: WARN: exit script
+
+
+
+2016-06-18 11:01:28: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 11:01:28: WARN: script is already working
+2016-06-18 11:01:28: WARN: exit script
+
+
+
+2016-06-18 11:01:29: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 11:01:29: WARN: script is already working
+2016-06-18 11:01:29: WARN: exit script
+
+
+
+2016-06-18 11:01:29: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 11:01:29: WARN: script is already working
+2016-06-18 11:01:29: WARN: exit script
+
+
+
+2016-06-18 11:01:30: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 11:01:30: WARN: script is already working
+2016-06-18 11:01:30: WARN: exit script
+
+
+
+2016-06-18 11:02:32: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+
+
+
+2016-06-18 11:03:17: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 11:03:17: WARNING: script is already working
+2016-06-18 11:03:17: WARNING: exit script
+
+
+
+2016-06-18 11:03:46: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 11:03:46: WARNING: script is already working
+2016-06-18 11:03:46: WARNING: exit script
+2016-06-18 11:03:50: DEBUG: file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working exists
+2016-06-18 11:03:50: DEBUG: removing file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working
+
+
+
+2016-06-18 11:03:50: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working not found all ok
+2016-06-18 11:03:50:==========  START Script Template  ==========
+2016-06-18 11:03:50: System is running on OSX
+2016-06-18 11:03:50: Start processing backup.
+2016-06-18 11:03:50: ERROR: TEXT
+2016-06-18 11:03:50: NOTE: TEXT
+2016-06-18 11:03:50: SUCESS: TEXT
+2016-06-18 11:03:50: WARNING: TEXT
+
+
+
+2016-06-18 11:03:55: DEBUG: working file /Users/sebastian/Documents/Repository/bash_template/.bash_template_working found
+2016-06-18 11:03:55: WARNING: script is already working
+2016-06-18 11:03:55: WARNING: exit script

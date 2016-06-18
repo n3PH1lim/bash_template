@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 #	Title:			bash_script_template.sh
 #  Desc:		template for bash scripts
@@ -17,7 +17,7 @@ SCRIPT_TASK="Script Template"
 readonly STRICT=1
 
 # set debug mode
-readonly DEBUG=0
+readonly DEBUG=1
 
 # set bash debug mode
 readonly BASH_DEBUG=0
@@ -25,8 +25,8 @@ readonly BASH_DEBUG=0
 # set max working time of script in seconds
 readonly MAX_WORKING_TIME=180
 
-# stop on errors 
-set -e 
+# stop on errors
+set -e
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # ++++++ DECLARATIONS ++++++++++++++++++++++++++++++++++++++++
@@ -37,20 +37,20 @@ set -e
 readonly WORKDIR=$(pwd)
 
 # get scriptname and remove dir part
-readonly SCRIPTNAME_WITH_EXTENTION=${0##*/} 
+readonly SCRIPTNAME_WITH_EXTENTION=${0##*/}
 
 # remove extension from scriptname
-readonly SCRIPTNAME=${SCRIPTNAME_WITH_EXTENTION%.*} 
+readonly SCRIPTNAME=${SCRIPTNAME_WITH_EXTENTION%.*}
 
-# set logfile name with monthly suffix  
-readonly LOGFILE=${WORKDIR}/${SCRIPTNAME}$(date +'_%Y_%m_%d').log 
+# set logfile name with monthly suffix
+readonly LOGFILE=${WORKDIR}/${SCRIPTNAME}$(date +'_%Y_%m_%d').log
 
 # set working file name for multiple run prevention
 # use scriptname with _working suffix
 readonly WORKING_FILE=${WORKDIR}/.${SCRIPTNAME}_working
 
 
-# set color for nice cli 
+# set color for nice cli
 readonly BOLD=$(tput bold)
 readonly RESET=$(tput sgr0)
 readonly UNDERLINE=$(tput sgr 0 1)
@@ -64,6 +64,31 @@ readonly BLUE='\033[1;34m'
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # ++++++ FUNCTIONS ++++++++++++++++++++++++++++++++++++++++++
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# get_system
+# Parameter:
+#
+# Info:
+# 1. get the system where script is running
+#
+function get_system () {
+
+
+if [ "$(uname)" == "Darwin" ]
+then
+	SYSTEM="OSX"
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]
+then
+	SYSTEM="LNX"
+elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ]
+then
+	SYSTEM="WIN"
+fi
+
+}
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 # check_bash_debug
 # Parameter:
@@ -146,7 +171,7 @@ local STRING=$1
 
 echo -e "$(date '+%F %T'): ${STRING}"
 echo -e "$(date '+%F %T'): ${STRING}" >>${LOGFILE}
-	
+
 unset STRING
 }
 
@@ -164,12 +189,12 @@ unset STRING
 function print_header() {
 
 	local STRING=$1
-	
+
 	echo -e "$(date '+%F %T'):==========  ${STRING}  ==========" >>${LOGFILE}
 	printf "\n${BOLD}${PURPLE}==========  %s  ==========${RESET}\n" "${STRING}"
-	
+
 	unset STRING
-	
+
 }
 
 
@@ -184,15 +209,15 @@ function print_header() {
 # Info:
 # 1. print success with string
 #
-function print_success() { 
+function print_success() {
 
 	local STRING=$1
 
 	echo -e "$(date '+%F %T'): SUCESS: ${STRING}" >>${LOGFILE}
-	printf "${GREEN}✔ %s${RESET}\n" "${STRING}" 
-	
+	printf "${GREEN}✔ %s${RESET}\n" "${STRING}"
+
 	unset STRING
-		
+
 }
 
 
@@ -210,9 +235,9 @@ function print_success() {
 function print_error() {
 
 	local STRING=$1
-		
+
 	echo -e "$(date '+%F %T'): ERROR: ${STRING}" >>${LOGFILE}
-	printf "${RED}✖ %s${RESET}\n" "${STRING}" 
+	printf "${RED}✖ %s${RESET}\n" "${STRING}"
 
 	unset STRING
 }
@@ -228,7 +253,7 @@ function print_error() {
 # Info:
 # 1. print warning with string
 #
-function print_warning() { 
+function print_warning() {
 
 	local STRING=$1
 
@@ -253,7 +278,7 @@ function print_warning() {
 function print_note() {
 
 	local STRING=$1
-	
+
 	echo -e "$(date '+%F %T'): NOTE: ${STRING}" >>${LOGFILE}
 	printf "${UNDERLINE}${BOLD}${BLUE}Note:${RESET}  ${BLUE}%s${RESET}\n" "${STRING}"
 
@@ -295,11 +320,11 @@ unset FUNCTION_TEMP_FILE
 # check_working
 #
 # Parameter:
-# $1 Name of working file 
+# $1 Name of working file
 # $2 max age of working file in seconds
 #
 # Info:
-# 1. check if script already working 
+# 1. check if script already working
 # 2. write working file with exclusive filehandle
 # 3. if working file is older than n seconds delete working file
 # 4. if filehandle can not taken exit
@@ -314,39 +339,62 @@ TEMP_MAX_AGE=${2}
 if [ -f ${FUNCTION_WORKING_FILE} ]
 then :
 	# get age of working file in seconds
-	WORKING_FILE_AGE=$(expr $(date +%s) - $(date +%s -r ${FUNCTION_WORKING_FILE}))
-
+	#WORKING_FILE_AGE=$(expr $(date +%s) - $(date +%s -r ${FUNCTION_WORKING_FILE}))
+  WORKING_FILE_AGE=$(expr $(date +%s) - $(stat -f "%m" -t "%m%d%H%M%y" ${FUNCTION_WORKING_FILE}))
 	# check if working file older then TEMP_MAX_AGE
 	if [ ${WORKING_FILE_AGE} -gt ${TEMP_MAX_AGE} ] # this nooooot working
 	then :
-		techo "WARN: working file ${FUNCTION_WORKING_FILE} is older than ${TEMP_MAX_AGE}"
-		techo "WARN: deleting old working file ${FUNCTION_WORKING_FILE}"
+		print_warning "working file ${FUNCTION_WORKING_FILE} is older than ${TEMP_MAX_AGE}"
+		print_warning "deleting old working file ${FUNCTION_WORKING_FILE}"
 		rm ${FUNCTION_WORKING_FILE}
 	else
 		decho "DEBUG: working file ${FUNCTION_WORKING_FILE} found"
-		techo "WARN: script is already working"
-		decho "WARN: exit script"
+		print_warning "script is already working"
+		print_warning "exit script"
 		exit 1
 	fi
 else :
 	decho "DEBUG: working file ${FUNCTION_WORKING_FILE} not found all ok"
 fi
 
+if [ "${SYSTEM}" = "OSX" ]
+then
 
-# open file descriptor
-exec 200>$FUNCTION_WORKING_FILE
+	# set working file and print pid in working file
+	echo $$>$FUNCTION_WORKING_FILE
 
-# get exclusiv file lock or exit
-flock -n 200 || (techo "FATAL: filehandle on working file can not be opend" && exit 1)
+	# set file lock for multiple run prevention
+	shlock -f $FUNCTION_WORKING_FILE || (techo "FATAL: filehandle on working file can not be opend" && exit 1)
+
+elif [ "${SYSTEM}" = "LNX" ]
+then
+
+	# open file descriptor
+	exec 200>$FUNCTION_WORKING_FILE
+
+	# get exclusiv file lock or exit
+	flock -n 200 || (techo "FATAL: filehandle on working file can not be opend" && exit 1)
+
+	# get script pid
+	local PID=$$
+
+	# print pid in working file
+	echo $PID 1>&200
+
+elif [ "${SYSTEM}" = "WIN" ]
+then
+
+	techo "cygwin not supported yet"
+
+else:
+
+	techo "unrecognized system"
+	exit 1
+
+fi
 
 # cleanup wokring file when script is exiting
 trap 'remove_file ${FUNCTION_WORKING_FILE}' EXIT 0
-
-# get script pid
-local PID=$$
-
-# print pid in working file
-echo $PID 1>&200
 
 }
 
@@ -365,12 +413,12 @@ echo $PID 1>&200
 #
 function start_processing(){
 
-# clear screen
-clear
-
 # set some space
 echo -e  "\n\n"
 echo -e  "\n\n" >>${LOGFILE}
+
+# check system where script ist running
+get_system
 
 # check if bash debug is set
 check_bash_debug
@@ -417,7 +465,8 @@ print_header "FINISHED ${SCRIPT_TASK}"
 
 start_processing
 
-techo "Start processing backup." 
+decho "System is running on $SYSTEM"
+techo "Start processing backup."
 
 
 print_error "TEXT"
@@ -425,7 +474,8 @@ print_note "TEXT"
 print_success "TEXT"
 print_warning "TEXT"
 
+sleep 500
+
 end_processing
 
 exit 0
-
